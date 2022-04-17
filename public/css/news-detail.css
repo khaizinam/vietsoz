@@ -1,0 +1,26 @@
+#detail-news {
+    margin: 0 5px;
+}
+
+#detail-news h3 {
+    font-size: 28px;
+    color: #272727;
+    margin: 0;
+}
+
+#detail-news p {
+    margin: 30px 0;
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+}
+
+.fb-comments {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.related-title {
+    font-size: 16px!important;
+    padding: 0!important;
+}

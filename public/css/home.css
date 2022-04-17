@@ -1,0 +1,175 @@
+#policy {
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+.policy-list li span {
+    display: inline-block;
+    text-align: center;
+    padding: 23px 0 17px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.policy-list li span.policy-icon {
+    width: 70px;
+}
+
+.policy-list li span.policy-title {
+    width: 300px;
+}
+
+.policy-list li.policy-1 {
+    background: #c97278;
+}
+
+.policy-list li.policy-1 span.policy-icon {
+    background: #b4666c;
+}
+
+.policy-list li.policy-2 {
+    background: #c0ab90;
+}
+
+.policy-list li.policy-2 span.policy-icon {
+    background: #ac9981;
+}
+
+.policy-list li.policy-3 {
+    background: #7f8fa0;
+}
+
+.policy-list li.policy-3 span.policy-icon {
+    background: #728090;
+}
+
+.category-title {
+    display: flex;
+    justify-content: center;
+}
+
+.category-title h3 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    font-size: 34px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.category-title h3::before {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 25px;
+    height: 2px;
+    width: 30px;
+    background: #9d9d9d;
+}
+
+.category-title h3::after {
+    content: '';
+    position: absolute;
+    right: -50px;
+    top: 25px;
+    height: 2px;
+    width: 30px;
+    background: #9d9d9d;
+}
+
+.category-content {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.category-content .container {
+    position: relative;
+}
+
+.btn-redirect {
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    background: #e2868c;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 12px 20px 10px 20px;
+}
+
+.btn-prev {
+    top: 40%;
+    left: -20px;
+}
+
+.btn-next {
+    top: 40%;
+    right: -20px;
+}
+
+a.view-more {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #272727;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#reg-email {
+    padding: 70px 0 120px 0;
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/background.jpg);
+}
+
+#reg-email h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#reg-email p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+#reg-email form {
+    width: 910px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #fff;
+}
+
+#reg-email form button {
+    width: 18%;
+    text-align: center;
+    padding: 17px 0;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: #35aec0;
+    border: none;
+    outline: none;
+}
+
+#reg-email form input {
+    width: 82%;
+    background: transparent;
+    font-size: 18px;
+    padding-left: 45px;
+    padding-right: 15px;
+    padding-top: 5px;
+    border: none;
+    color: #fff;
+}
+
+#reg-email form input::placeholder {
+    text-transform: uppercase;
+}

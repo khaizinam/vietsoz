@@ -1,0 +1,30 @@
+.news-thumb {
+    overflow: hidden;
+}
+
+.news-thumb a img {
+    height: 263px;
+    transition: all .5s;
+}
+
+.news-thumb a img:hover {
+    transform: scale(1.05);
+}
+
+.news-title {
+    display: inline-block;
+    margin: 20px 0 5px 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.news-title:hover {
+    color: #b74851;
+}
+
+.news-detail p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 300;
+}

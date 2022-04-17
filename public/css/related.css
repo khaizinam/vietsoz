@@ -1,0 +1,110 @@
+#related {
+    position: relative;
+}
+
+.related-box-title {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.related-box-title h3 {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 23px;
+    border-bottom: 2px solid #e10000;
+}
+
+.related-box-body {
+    padding-top: 40px;
+}
+
+.product-item {
+    border: 1px solid #d8d8d8;
+    overflow: hidden;
+}
+
+.product-item:hover {
+    border: 1px solid #afafaf;
+    box-shadow: 0 0 8px #eee;
+}
+
+.related-thumb {
+    overflow: hidden;
+}
+
+.related-thumb a img {
+    transition: all .5s;
+}
+
+.related-thumb a img:hover {
+    transform: scale(1.05);
+}
+
+a.related-title {
+    font-size: 12px;
+    color: #000;
+    text-align: justify;
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+a.related-title:hover {
+    color: #e10000;
+}
+
+.bottom-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f7f4ff;
+}
+
+.price-side {
+    width: 50px;
+}
+
+.price-side span {
+    display: block;
+}
+
+.price-side .old-price {
+    font-size: 12px;
+}
+
+.price-side .new-price {
+    font-size: 14px;
+}
+
+a.btn-buy-now {
+    display: inline-block;
+    padding: 5px 15px;
+    background: #232633;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+a.btn-buy-now:hover {
+    background: #e10000;
+}
+
+.related-button a {
+    position: absolute;
+    top: 5px;
+    display: inline-block;
+    font-size: 13px;
+    padding: 3px 7px;
+    color: #96989b;
+    background: #e9f1f8;
+}
+
+a.btn-next {
+    right: 0;
+}
+
+a.btn-prev {
+    right: 25px;
+}

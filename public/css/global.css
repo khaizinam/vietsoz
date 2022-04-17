@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    padding: 25px 0 30px 0;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.clear-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.clear-link {
+    text-decoration: none;
+}
+
+.main-menu {
+    width: 800px;
+    padding-top: 22px;
+}
+
+.main-menu li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.main-menu li a:hover {
+    color: #b63838;
+}
+
+.right-header {
+    width: 82px;
+    padding-top: 13px;
+}
+
+.right-header a {
+    color: #000;
+}
+
+.right-header a i:hover {
+    color: #b63838;
+}
+
+.right-header a i {
+    padding-top: 15px;
+}
+
+.right-header img {
+    width: 31px;
+    height: auto;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 5px;
+}
+
+.col-4 {
+    width: 32%;
+    padding: 0 5px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.new-price {
+    font-weight: 700;
+    color: #b74851;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #8d8d8d;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 14px 50px;
+    border-radius: 10px;
+}
+
+footer #top-footer {
+    background: #1b1b1b;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.footer-box-head {
+    font-size: 28px;
+    height: 62px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-items: center;
+    text-transform: uppercase;
+}
+
+.footer-box-head h3 {
+    padding-top: 10px;
+}
+
+.footer-box-body {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-box-body p {
+    text-align: justify;
+}
+
+.box-1 {
+    width: 360px;
+}
+
+.box-2 {
+    width: 162px;
+}
+
+.box-3 {
+    width: 162px;
+}
+
+.box-4 {
+    padding-top: 20px;
+    width: 292px;
+}
+
+ul.cat-list {
+    margin: 0;
+    padding-left: 18px;
+}
+
+ul.cat-list li {
+    margin-bottom: 10px;
+}
+
+ul.cat-list li:last-child {
+    margin: 0;
+}
+
+ul.cat-list li a {
+    color: #fff;
+}
+
+#copyright {
+    text-align: center;
+    color: #2f2f2f;
+    background: #fff;
+}
